@@ -1,0 +1,119 @@
+.cart{
+    padding-bottom: 5rem;
+}
+
+.cart-container{
+    padding: 0px 3%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.itemWrap{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 40px;
+}
+
+.totalbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.sumarryWrap{
+    display: flex;
+    /* font-size: 14px; */
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid #B9D5AB;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.summaryFigures{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fees{
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.totalWrap{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.total{
+    font-size: 20px;
+    font-weight: 500;
+    color: #252525;
+}
+
+
+.greytitles{
+    color: #7F817F;
+    font-weight: 500;
+}
+
+.TB{
+    align-self: flex-end;
+}
+
+.drop{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+
+.cart-checkoutBtn{
+    cursor: pointer;
+    margin-top: 30px;
+    max-width: 200px;
+    border: none;
+    color: white;
+    width: 100%;
+    background-color: #417B13;
+    font-size: 17px;
+    padding:17px 0px;
+    align-self: flex-end;
+}
+
+
+
+
+/* ************************************MEDIA QUERIES****************************/
+
+
+@media (max-width:440px){
+    .summaryFigures{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .totalWrap{
+        align-items: center;
+        gap: 1px;
+    }
+
+    .greytitles{
+        align-self: center;
+    }
+
+   .cart-checkoutBtn{
+    align-self: center;
+   }
+}

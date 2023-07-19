@@ -1,0 +1,85 @@
+.bondWrap{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px 20px 10px;
+    border: 2px solid #89B67C;
+    max-width: 280px;
+    width: 100%;
+    border-radius: 10px;
+    gap: 25px;
+    transition: 0.3s;
+    margin: 0 auto;
+
+}
+
+.bondWrap:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 20px 0px rgba(199,194,194,0.75);
+    -webkit-box-shadow: 1px 1px 20px 0px rgba(199,194,194,0.75);
+    -moz-box-shadow: 1px 1px 20px 0px rgba(199,194,194,0.75);
+}
+
+.bondWrap img{
+    width: 40px;
+    height: 40px;
+}
+
+.rowWraps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.FSB{
+    background-color: #C1EED6;
+    color: #909290;
+    font-weight: 500;
+    padding: 5px 15px;
+    border-radius: 10px;
+
+}
+
+.columnWraps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    gap: 5px;
+    font-weight: 500;
+}
+
+.DSB{
+    font-size: 19px;
+}
+
+.bondTitles{
+    color: #909290;
+}
+
+
+.cartBtnWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartBtn{
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 0px;
+    max-width: 150px;
+    width: 100%;
+    background-color: #417B13;
+
+}
+
+
+.bondHeart{
+    font-size: 35px;
+}
+

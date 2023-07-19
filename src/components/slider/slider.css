@@ -1,0 +1,23 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.slick-next::before{
+    content:url(/src/assets/arrowRight.svg);
+    height: 33px;
+    width: 33px;
+}
+
+.slick-prev::before{
+    content:url(/src/assets/arrowLeft.svg);
+    height: 33px;
+    width: 33px;
+}
+
+.slick-next{
+    z-index: 1;
+}
+
+.slick-prev{
+    z-index: 1;
+}
